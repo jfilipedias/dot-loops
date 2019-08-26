@@ -7,3 +7,5 @@ Go to ``` Edit > Preferences > Addons > Install ```, find the folder you downloa
 
 ## Location
 The addon will appear only in edit mode in ``` Select > Dot Loops ```.
+
+![Dot Loops demo](dot-loops-demo.gif)
