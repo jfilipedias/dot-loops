@@ -43,7 +43,7 @@ class DL_OT_SelectDotLoops(Operator):
 
     def execute(self, context):
         bpy.ops.mesh.loop_multi_select(ring=True)
-        bpy.ops.mesh.select_nth(nth=self.step+1, skip=self.selection, offset=self.offset)
+        bpy.ops.mesh.select_nth(nth=self.step, skip=self.selection, offset=self.offset)
         bpy.ops.mesh.loop_multi_select(ring=False)
 
         return {'FINISHED'} 
